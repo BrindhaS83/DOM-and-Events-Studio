@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
         <title>Flight Simulator</title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
         <script src = "scripts.js"></script>
@@ -10,6 +13,7 @@
             <h1>Flight Simulator</h1>
             <h2>Current Flight Status</h2>
             <p id = "flightStatus">Space shuttle ready for takeoff</p>
+           
             <h2>Shuttle Trajectory</h2>
         </div>
         <div style="text-align: center; height: 400px; width: 100%;" >
@@ -23,10 +27,10 @@
                 <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
             </div>
             <div style = "text-align: center; display: inline-block;">
-                    <button>Up</button>
-                    <button>Down</button>
-                    <button>Right</button>
-                    <button>Left</button>
+                    <button id = "up">Up</button>
+                    <button id = "down">Down</button>
+                    <button id = "left">Left</button>
+                    <button id = "right">Right</button>
                     <h3>Space Shuttle Height</h3>
                     <p id="spaceShuttleHeight">0</p><p style = "display: inline-block;"> miles</p>
             </div>
